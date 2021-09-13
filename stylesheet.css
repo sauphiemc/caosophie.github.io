@@ -162,6 +162,10 @@
     margin-right: 40px;
 }
 
+#projects h2 {
+    padding: 20px 20px 20px 20px;
+}
+
 #projects a{
     color: black;
 }
@@ -215,6 +219,7 @@
     background-color: white;
     padding: 0;
     margin: 10px 20px 20px 20px;
+    height: 100%;
 }
 
 #projects p {
@@ -254,6 +259,8 @@
 
 #hobbies .col-md-9 {
     margin: 30px 0px 20px 0px;
+    padding-left: 45px;
+    padding-right: 30px;
 }
 
 #hobbies h2 {
