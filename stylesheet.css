@@ -1,15 +1,17 @@
 /*--------------NavBar-------------------------*/
 #NavBar {
-    position: sticky;
     top: 0;
     z-index: 10;
     width: 100%;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
 }
 
-.navbar-brand img{
-    height: 80px;
-    padding: 20px 0px 20px 30px;
-    margin: 0;
+.navbar-brand {
+    font-size: x-large!important;
 }
 
 .navbar-nav li {
@@ -27,10 +29,6 @@
     list-style: none;
 }
 
-.navbar {
-    background-color: white;
-}
-
 .navbar-toggler {
     border: none!important;
 }
@@ -40,273 +38,156 @@
     font-weight: 300;
     font-size: 16px;
     letter-spacing: 2px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-link:hover{
-    color:#B9CEDF!important;
+    color:#C9D7EA!important;
 }
 
+/*--------------About-------------------------*/
 
-
-/*---------------Welcome Page-------------------*/
-#header {
-    background-color: #B9CEDF;
-    padding-top: 80px;
-    padding-bottom: 80px;
+#about {
+    height: 75vh;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    font-family: 'Syne', sans-serif;
 }
 
-#header img {
+#about .container-fluid {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.shape {
+    background-color: #FFFFF5;
+    height: 90%;
+    width: 70%;
+    display: block;
+    border-style: solid;
+    border-width: thin;
+    margin: auto;
+    padding-top: 50px;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 35%;
+    text-align: center;
+}
+
+.shape #title {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 25px 0px 10px 0px;
+    margin: 0;
+    line-height: 90%;
+}
+
+#about img {
     display: block;
     margin-right: auto;
     margin-left: auto;
     border-radius: 50%;
-    border:5px solid white;
-    width: 200px;
+    width: 50%;
 }
 
-#header h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-weight: 350;
-    padding: 40px 20px 0px 20px;
-    font-size: 36px;
-    text-align: center;
-}
-
-/*------------AboutME-----------------------*/
-#about {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-#about .fa-handshake-o {
-    color: #B9CEDF;
-    padding: 10px 30px 20px 0px;
-    margin-left: 40px;
-}
-
-#about h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 350;
-    font-size: 36px;
-    padding: 10px 0px 10px 0px;
-    margin-right: 40px;
-}
-
-#about h4 {
-    font-family: 'Montserrat', sans-serif;
-    display: inline;
-    font-weight: 350;
-}
-
-#about .fa-facebook {
-    padding: 20px 20px 20px 20px;
-}
-
-#about .fa-enveloppe {
-    padding: 20px 20px 20px 20px;
-}
-
-#about .fa-linkedin {
-    padding: 20px 20px 20px 20px;
-}
-
-#about p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300px;
-    font-size: 16px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-#about ol {
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-#about ol li {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 450px;
-    font-size: 16px;
-    line-height: 26px;
-    padding: 10px 0px 10px 20px;
-}
-
-#about a {
-    color: #6aa2cf;
-}
-
-#about a:hover {
-    color: black;
-}
-
-/*---------------Projects-----------------*/
-#projects {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: #B9CEDF;
-}
-
-#projects .fa-thumb-tack {
-    color: black;
-    padding: 10px 30px 20px 0px;
-    margin-left: 40px;
-}
-
-#projects h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 350;
-    font-size: 36px;
-    padding: 10px 0px 10px 0px;
-    margin-right: 40px;
-}
-
-#projects h2 {
-    padding: 20px 20px 20px 20px;
-}
-
-#projects a{
-    color: black;
-}
-
-#projects .fa-video-camera {
-    color: black;
-    padding: 10px 10px 10px 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
-#projects .fa-desktop {
-    color: black;
-    padding: 10px 10px 10px 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
-#projects .fa-briefcase {
-    color: black;
-    padding: 10px 10px 10px 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
-#projects .fa-book {
-    color: black;
-    padding: 10px 10px 10px 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
-#projects .col {
-    border: 2px solid black;
-    background-color: white;
-    padding: 0;
-    margin: 10px 20px 20px 20px;
+#about .row {
     height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
-#projects p {
-    margin: 15px 30px 10px 30px;
-    font-family: 'Montserrat', sans-serif;
+#about .col-4 {
+    height: 100%;
+    border-right-style: solid;
+    border-right-width: thin;
+    padding: 100px 20px 20px 20px;
+    background-image: url("img/background_blue.png");
+}
+
+#about .col-6 {
+    height: 100%;
+    padding: 100px 20px 20px 20px;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+
+#about .col {
+    height: 100%;
+    background-image: url("img/background_blue.png");
+}
+
+.content {
+    margin: 40px 50px 0px 60px;
+    height: 90%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+#hi {
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 80%;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #C9D7EA !important;
+    border-color: black !important;
+    width: 120px !important;
+    margin-right: 30px !important;
+}
+
+.btn-primary:hover {
+    background-color: black!important;
+}
+
+.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary:visited {
+    background-color: white !important;
+    border-color: black !important;
+    color: black !important;
+    width: 120px !important;
+    margin-right: 30px !important;
+}
+
+.btn-outline-primary:hover {
+    background-color:#FFFFF5 !important;
+}
+
+#intro {
+    font-size: 30px;
+}
+
+#description {
+    margin-top: 40px;
+    width: 70%;
+}
+
+#description a {
     color: black;
-    font-size: 14px;
+    font-weight: bold;
 }
 
-#projects h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+#about .fa {
+    padding-left: 20px;
+    color: #C9D7EA;
+}
+
+#about .fa:hover {
     color: black;
-
 }
 
-#projects #icon {
-    padding: 0;
-    width: 30px;
-    height: 30px;
-    margin-bottom: 30px;
-    margin-top: 15px;
-}
-
-/*--------------Hobbies----------------*/
-#hobbies {
-    padding-top: 80px;
-    padding-bottom: 80px;  
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-#hobbies .col {
-    margin: 30px 0px 20px 0px;
-    padding-left: 45px;
-}
-
-#hobbies .col-md-9 {
-    margin: 30px 0px 20px 0px;
-    padding-left: 45px;
-    padding-right: 30px;
-}
-
-#hobbies h2 {
-    font-size: 24px;
-    display: inline;
-    color: #B9CEDF;
-}
-
-#hobbies .fa-hand-peace-o {
-    color: #B9CEDF;
-    padding: 10px 30px 20px 0px;
-    margin-left: 40px;
-}
-
-#hobbies h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 350;
-    font-size: 36px;
-    padding: 10px 0px 10px 0px;
-    margin-right: 40px;
-}
-
-/*--------------Carousel----------------*/
-#carousel {
-    font-family: 'Montserrat', sans-serif;
-}
-
-#slideshow a {
-    color: white;
-}
-
-/*------------Footer------------------*/
 #footer {
-padding-top: 80px;
-padding-bottom: 80px;
-font-family: 'Montserrat', sans-serif;
-background-color: #B9CEDF;
-}
-
-#footer h1 {
-    font-size: 16px;
     text-align: center;
+    padding: 45px;
 }
 
-#footer img {
-    width: 20px;
-    height: 20px;
-    margin: 0px 4px 0px 4px;
+#footer #msg {
+    font-family: 'Syne', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
 }
