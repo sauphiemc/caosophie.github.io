@@ -117,7 +117,7 @@
 
 .content {
     margin: 40px 50px 0px 60px;
-    height: 90%;
+    height: 80%;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none; 
